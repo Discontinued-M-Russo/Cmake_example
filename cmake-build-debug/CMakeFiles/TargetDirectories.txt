@@ -1,0 +1,6 @@
+/Users/105051313/CLionProjects/Test2/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/Users/105051313/CLionProjects/Test2/cmake-build-debug/CMakeFiles/edit_cache.dir
+/Users/105051313/CLionProjects/Test2/cmake-build-debug/CMakeFiles/Example2.dir
+/Users/105051313/CLionProjects/Test2/cmake-build-debug/test/CMakeFiles/rebuild_cache.dir
+/Users/105051313/CLionProjects/Test2/cmake-build-debug/test/CMakeFiles/edit_cache.dir
+/Users/105051313/CLionProjects/Test2/cmake-build-debug/test/CMakeFiles/Example2Test.dir

@@ -1,0 +1,36 @@
+/Applications/CLion.app/Contents/bin/cmake/bin/cmake -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - Unix Makefiles" /Users/105051313/CLionProjects/Test2
+CMake Warning at /Applications/CLion.app/Contents/bin/cmake/share/cmake-3.9/Modules/FindBoost.cmake:786 (message):
+  New Boost version may have incorrect or missing dependencies and imported
+  targets
+Call Stack (most recent call first):
+  /Applications/CLion.app/Contents/bin/cmake/share/cmake-3.9/Modules/FindBoost.cmake:892 (_Boost_COMPONENT_DEPENDENCIES)
+  /Applications/CLion.app/Contents/bin/cmake/share/cmake-3.9/Modules/FindBoost.cmake:1523 (_Boost_MISSING_DEPENDENCIES)
+  test/CMakeLists.txt:5 (find_package)
+
+
+CMake Warning at /Applications/CLion.app/Contents/bin/cmake/share/cmake-3.9/Modules/FindBoost.cmake:786 (message):
+  New Boost version may have incorrect or missing dependencies and imported
+  targets
+Call Stack (most recent call first):
+  /Applications/CLion.app/Contents/bin/cmake/share/cmake-3.9/Modules/FindBoost.cmake:892 (_Boost_COMPONENT_DEPENDENCIES)
+  /Applications/CLion.app/Contents/bin/cmake/share/cmake-3.9/Modules/FindBoost.cmake:1523 (_Boost_MISSING_DEPENDENCIES)
+  test/CMakeLists.txt:5 (find_package)
+
+
+CMake Warning at /Applications/CLion.app/Contents/bin/cmake/share/cmake-3.9/Modules/FindBoost.cmake:786 (message):
+  New Boost version may have incorrect or missing dependencies and imported
+  targets
+Call Stack (most recent call first):
+  /Applications/CLion.app/Contents/bin/cmake/share/cmake-3.9/Modules/FindBoost.cmake:892 (_Boost_COMPONENT_DEPENDENCIES)
+  /Applications/CLion.app/Contents/bin/cmake/share/cmake-3.9/Modules/FindBoost.cmake:1523 (_Boost_MISSING_DEPENDENCIES)
+  test/CMakeLists.txt:5 (find_package)
+
+
+-- Boost version: 1.66.0
+-- Found the following Boost libraries:
+--   system
+--   filesystem
+--   unit_test_framework
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /Users/105051313/CLionProjects/Test2/cmake-build-debug

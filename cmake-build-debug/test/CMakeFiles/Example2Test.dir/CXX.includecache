@@ -1,0 +1,26 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../test/../src/rectangle.h
+
+/Users/105051313/CLionProjects/Test2/src/rectangle.cpp
+rectangle.h
+/Users/105051313/CLionProjects/Test2/src/rectangle.h
+
+/Users/105051313/CLionProjects/Test2/src/rectangle.h
+
+/Users/105051313/CLionProjects/Test2/test/testRectangle.cpp
+iostream
+-
+boost/test/test_tools.hpp
+-
+boost/test/unit_test.hpp
+-
+rectangle.h
+/Users/105051313/CLionProjects/Test2/test/rectangle.h
+
