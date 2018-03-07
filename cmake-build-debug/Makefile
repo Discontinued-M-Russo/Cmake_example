@@ -190,6 +190,33 @@ src/rectangle.cpp.s:
 	$(MAKE) -f CMakeFiles/Example2.dir/build.make CMakeFiles/Example2.dir/src/rectangle.cpp.s
 .PHONY : src/rectangle.cpp.s
 
+src/simpleLogger.o: src/simpleLogger.cpp.o
+
+.PHONY : src/simpleLogger.o
+
+# target to build an object file
+src/simpleLogger.cpp.o:
+	$(MAKE) -f CMakeFiles/Example2.dir/build.make CMakeFiles/Example2.dir/src/simpleLogger.cpp.o
+.PHONY : src/simpleLogger.cpp.o
+
+src/simpleLogger.i: src/simpleLogger.cpp.i
+
+.PHONY : src/simpleLogger.i
+
+# target to preprocess a source file
+src/simpleLogger.cpp.i:
+	$(MAKE) -f CMakeFiles/Example2.dir/build.make CMakeFiles/Example2.dir/src/simpleLogger.cpp.i
+.PHONY : src/simpleLogger.cpp.i
+
+src/simpleLogger.s: src/simpleLogger.cpp.s
+
+.PHONY : src/simpleLogger.s
+
+# target to generate assembly for a file
+src/simpleLogger.cpp.s:
+	$(MAKE) -f CMakeFiles/Example2.dir/build.make CMakeFiles/Example2.dir/src/simpleLogger.cpp.s
+.PHONY : src/simpleLogger.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -206,6 +233,9 @@ help:
 	@echo "... src/rectangle.o"
 	@echo "... src/rectangle.i"
 	@echo "... src/rectangle.s"
+	@echo "... src/simpleLogger.o"
+	@echo "... src/simpleLogger.i"
+	@echo "... src/simpleLogger.s"
 .PHONY : help
 
 
