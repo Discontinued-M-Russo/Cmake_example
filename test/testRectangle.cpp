@@ -41,7 +41,7 @@ BOOST_AUTO_TEST_SUITE(ExampleTestSuite)
 
         // Provide a test predicate (i.e. a conditional statement) that evaluates
         // to false to force the test to fail and will issue a warning with message.
-        BOOST_CHECK(rect.area()==18);
+        //BOOST_CHECK(rect.area()==18);
     }
 
 BOOST_AUTO_TEST_SUITE_END()

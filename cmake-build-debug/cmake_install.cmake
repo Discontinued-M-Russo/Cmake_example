@@ -1,4 +1,4 @@
-# Install script for directory: /Users/105051313/CLionProjects/Test2
+# Install script for directory: /Users/michelangelo/Documents/dev/oldprojects/Cmake_example
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -27,9 +27,14 @@ if(NOT CMAKE_INSTALL_COMPONENT)
   endif()
 endif()
 
+# Is this installation the result of a crosscompile?
+if(NOT DEFINED CMAKE_CROSSCOMPILING)
+  set(CMAKE_CROSSCOMPILING "FALSE")
+endif()
+
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("/Users/105051313/CLionProjects/Test2/cmake-build-debug/test/cmake_install.cmake")
+  include("/Users/michelangelo/Documents/dev/oldprojects/Cmake_example/cmake-build-debug/test/cmake_install.cmake")
 
 endif()
 
@@ -41,5 +46,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/Users/105051313/CLionProjects/Test2/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/Users/michelangelo/Documents/dev/oldprojects/Cmake_example/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")
