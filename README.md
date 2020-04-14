@@ -50,10 +50,32 @@ Beyond Boost, other important dependencies are:
 ---
 
 ## How to build the code
-After having cloned the repo, it is necessary to define a `BOOST_ROOT` enviroment variable to point to the `path/to/istallation` folder defined in the previous step on how to install Boost. This will be referenced in the [`CMakeLists .txt`](CMakeLists.txt) file, lines 9-11:
+After having cloned the repo, it is necessary to define a `BOOST_ROOT` enviroment variable to point to the `path/to/istallation` folder defined in the previous step on how to install Boost. This will be referenced in the [`CMakeLists.txt`](CMakeLists.txt) file, lines 9-11:
 
 ```sh
   # REMEMBER to set BOOST_ROOT env variable to the root folder where Boost was installed
   set(BOOST_LIBRARYDIR $(BOOST_ROOT)/lib)
   set(BOOST_INCLUDEDIRS $(BOOST_ROOT)/include/boost)
 ```
+
+Once done that, from the cloned repo you should just need to: 
+
+1. Make a build directory: `mkdir build && cd build`
+2. Compile: `cmake .. && make` 
+
+---
+
+## How to run the code
+
+In order to run the code in [`main.cpp`](/src/main.cpp), from the `build` folder just type:
+
+```sh
+  ./rectangle 
+```
+
+This will output the Log messages on the consol and will also create a `logfile.log` file with the same messages.
+
+In order to run the test suite, from the `build` folder you will hve to:
+
+1. Change to the `test` folder that was created when compiling: `cd test`
+2. Run `./rectangleTest`
