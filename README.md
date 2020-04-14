@@ -50,7 +50,7 @@ Beyond Boost, other important dependencies are:
 ---
 
 ## How to build the code
-After having cloned the repo, it is necessary to define a `BOOST_ROOT` enviroment variable to point to the `path/to/istallation` folder defined in the previous step on how to install Boost. This will be referenced in the [`CMakeLists.txt`](CMakeLists.txt) file, lines 9-11:
+After having cloned the repo and taken care of the dependencies as described above, it is necessary to define a `BOOST_ROOT` enviroment variable to point to the `path/to/istallation` folder defined in the previous step on how to install Boost. This will be referenced in the [`CMakeLists.txt`](CMakeLists.txt) file, lines 9-11:
 
 ```sh
   # REMEMBER to set BOOST_ROOT env variable to the root folder where Boost was installed
