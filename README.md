@@ -67,7 +67,7 @@ Once done that, from the cloned repo you should just need to:
 
 ## How to run the code
 
-In order to run the code in [`main.cpp`](/src/main.cpp), from the `build` folder just type:
+In order to run the code in [`main.cpp`](/main.cpp), from the `build` folder just type:
 
 ```sh
   ./rectangle 
