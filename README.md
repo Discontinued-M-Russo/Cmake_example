@@ -75,7 +75,7 @@ In order to run the code in [`main.cpp`](/main.cpp), from the `build` folder jus
 
 This will output the Log messages on the consol and will also create a `logfile.log` file with the same messages.
 
-In order to run the test suite, from the `build` folder you will hve to:
+In order to run the test suite, from the `build` folder you will have to:
 
 1. Change to the `test` folder that was created when compiling: `cd test`
 2. Run `./rectangleTest`
