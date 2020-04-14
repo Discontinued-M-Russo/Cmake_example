@@ -1,4 +1,4 @@
-# Cmake_example
+# Cmake Example
 Simple example of a CLion project using CMake and Boost for testing and logging. Based on the material available [here](https://gernotklingler.com/blog/simple-customized-logger-based-boost-log-v2/) and on the Boost documentation.
 
 ---
