@@ -1,11 +1,7 @@
-//
-// Created by Russo, Michelangelo (GE Global Research) on 3/6/18.
-//
+
 
 #ifndef UNTITLED1_SIMPLELOGGER_H
 #define UNTITLED1_SIMPLELOGGER_H
-
-#define BOOST_LOG_DYN_LINK // necessary when linking the boost_log library dynamically
 
 #include <boost/log/trivial.hpp>
 #include <boost/log/sources/global_logger_storage.hpp>

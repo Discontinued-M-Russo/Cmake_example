@@ -3,7 +3,6 @@
 //
 
 #define BOOST_TEST_MODULE ExampleTestModule
-#define BOOST_TEST_DYN_LINK
 
 #include <iostream>
 #include <boost/test/test_tools.hpp>

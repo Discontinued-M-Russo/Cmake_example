@@ -1,6 +1,4 @@
-//
-// Created by Russo, Michelangelo (GE Global Research) on 3/6/18.
-//
+
 
 #include "simpleLogger.h"
 
