@@ -73,7 +73,7 @@ In order to run the code in [`main.cpp`](/main.cpp), from the `build` folder jus
   ./rectangle 
 ```
 
-This will output the Log messages on the consol and will also create a `logfile.log` file with the same messages.
+This will output the log messages on the console and will also create a `logfile.log` file with the same messages.
 
 In order to run the test suite, from the `build` folder you will have to:
 
